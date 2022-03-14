@@ -5,9 +5,9 @@ function main() {
   const bigquery = new BigQuery();
   async function query() {
 
-    const query = `SELECT name
+    const query = `SELECT PRODUCTID
       FROM \`ploom-dev-291002.products_dataset.isc_garments\`
-      WHERE UNIT = '5'
+      WHERE UNIT = 5
       LIMIT 100`;
 
     const options = {
