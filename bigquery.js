@@ -33,7 +33,7 @@ function main() {
     const options = {
       query: query,
       // Location must match that of the dataset(s) referenced in the query.
-      location: 'US',
+      location: 'us-west1',
     };
 
     // Run the query as a job
