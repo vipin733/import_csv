@@ -6,10 +6,9 @@ function main() {
   async function query() {
 
     const query = `SELECT PRODUCTID
-      FROM \`ploom-dev-291002.products_dataset.isc_garments\`
-      WHERE UNIT = 5
+      FROM \`ploom-dev-291002.products_dataset.isc_garments_new\`
       LIMIT 100`;
-
+    //   WHERE UNIT = 5
     const options = {
       query: query,
       location: 'us-west1',
