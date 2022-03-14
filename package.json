@@ -1,0 +1,11 @@
+{
+  "name": "import_csv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.11.0",
+    "@google-cloud/firestore": "^5.0.2",
+    "fast-csv": "^4.3.6"
+  }
+}
